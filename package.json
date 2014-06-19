@@ -1,0 +1,26 @@
+{
+  "name": "catalog",
+  "description": "monstercat catalog export",
+  "keywords": [],
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jb55/catalog.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --harmony --reporter spec"
+  },
+  "dependencies": {
+    "JSONStream": "^0.8.3",
+    "co": "^3.0.6",
+    "co-monk": "^1.0.0",
+    "json-interact": "0.0.1",
+    "monk": "^0.9.0",
+    "through2": "^0.5.1"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "expect.js": "*"
+  }
+}
